@@ -6,8 +6,7 @@ sections:
   # 1. 메인 배너 (대표 사진과 슬로건)
   - block: hero
     content:
-      title: '<span style="color: #FFFFFF;">한양대학교 지진방재
-    인력양성 사업단</span>'
+      title: '<span style="color: #FFFFFF;">한양대학교 지진방재<br>인력양성 사업단</span>'
       text: '<span style="color: #FFFFFF;">미래 사회의 안전을 책임지는 지진방재 전문인력 양성</span>'
     design:
       background:
