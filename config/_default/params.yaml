@@ -287,3 +287,10 @@ hugoblox:
     # Affiliate referral code for rewards program
     # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""
+# 사이트 디자인 설정
+appearance:
+  mode: light
+  theme_day: hanyang
+  theme_night: hanyang
+  font: minimal
+  font_size: L
