@@ -1,0 +1,12 @@
+name: "Korean Font"
+
+# 구글 폰트에서 Noto Sans KR (본고딕) 불러오기
+google_fonts:
+  - name: Noto Sans KR
+    weights: "300,400,500,700"
+
+# 사이트 전체(기본 글씨, 제목, 메뉴)에 적용하기
+features:
+  font_default: "'Noto Sans KR', sans-serif"
+  font_heading: "'Noto Sans KR', sans-serif"
+  font_nav: "'Noto Sans KR', sans-serif"
