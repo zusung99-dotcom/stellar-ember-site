@@ -292,5 +292,5 @@ appearance:
   mode: light
   theme_day: hanyang
   theme_night: hanyang
-  font: minimal
+  font: korean
   font_size: L
