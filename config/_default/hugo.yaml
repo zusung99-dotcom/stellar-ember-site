@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name (set in params.yaml under hugoblox.branding.name)
-title: 한양대학교 지진방재 인력양성 사업단
+title: " "
 # Website URL
 baseURL: 'https://example.com/'
 
