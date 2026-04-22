@@ -1,22 +1,20 @@
-# Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-  #     desired widget in your `content/home/` folder.
-  #   The weight parameter defines the order that the links will appear in.
-
 main:
   - name: "사업 소개 | INTRODUCTION"
-    url: /introduction/
+    url: "/introduction/"
     weight: 10
+
   - name: "구성원 | MEMBERS"
-    url: /members/
+    url: "/members/"
     weight: 20
+
   - name: "연구 | RESEARCH"
-    url: /research/
-    weight: 30 
+    url: "/research/"
+    weight: 30
+
   - name: "성과 | OUTCOMES"
-    url: /outcomes/
+    url: "/outcomes/"
     weight: 40
-    # 여기서부터 하위 메뉴(드롭다운) 설정입니다.
+
   - name: "지진방재마이크로전공 개설"
     parent: outcomes
     url: "/outcomes/major/"
@@ -36,10 +34,11 @@ main:
     parent: outcomes
     url: "/outcomes/exhibition/"
     weight: 4
-    
+
   - name: "장비 소개 | INSTRUMENT"
-    url: /instrument/
+    url: "/instrument/"
     weight: 50
+
   - name: "게시판 | BOARD"
-    url: /board/
+    url: "/board/"
     weight: 60
