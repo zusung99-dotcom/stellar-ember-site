@@ -16,13 +16,13 @@ sections:
     design:
       background:
         image:
-          filename: "nasa-yZygONrUBe8-unsplash.jpg"
+          filename: "Gemini_Generated_Image_n4uys2n4uys2n4uy.png"
           filters:
             brightness: 0.7
+     text_color_light: true  
       text_align: center
       spacing:
         padding: ["2rem", "0", "2rem", "0"]
-
   - block: markdown
     id: background
     content:
