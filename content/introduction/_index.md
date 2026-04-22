@@ -4,22 +4,23 @@ date: 2026-04-22
 type: landing
 
 sections:
-  - block: hero
+ - block: hero
     content:
       title: |
         사업 소개<br><span class="text-primary">INTRODUCTION</span>
       text: |
-        ### 한양대학교 지진방재 전문인력 양성 사업단
+         한양대학교 지진방재 전문인력 양성 사업단
 
         체계적 교육 인프라와 학술연구-산학 연계 네트워크를 통해
         **전문지식과 실무능력을 겸비한 지진방재 전문인력**을 양성합니다.
     design:
       background:
         image:
-          filename: "Gemini_Generated_Image_n4uys2n4uys2n4uy.png"
+          filename: "nasa-yZygONrUBe8-unsplash.jpg"
           filters:
             brightness: 0.7
-     text_color_light: true  
+        
+        text_color_light: true  
       text_align: center
       spacing:
         padding: ["2rem", "0", "2rem", "0"]
