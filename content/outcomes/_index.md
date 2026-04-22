@@ -5,14 +5,24 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: "연구 성과"
-      text: "지진방재 전문인력 양성을 위한 주요 성과를 소개합니다."
-
-  - block: pages
-    content:
-      folder: outcomes  
-      count: 4
+      title: "성과 | OUTCOMES"
+      subtitle: "이력사항 - 성과 | Outcomes"
+      text: |
+        * 지진방재마이크로전공 개설
+        * 외부전문가 특강
+        * 학술발표
+        * 홍보용 배너전시
     design:
-      columns: 2         
-      view: card        
+      columns: '1'
+
+  - block: collection
+    content:
+      title: ""
+      filters:
+        folders:
+          - outcomes
+        exclude_featured: false
+    design:
+      view: card
+      columns: '2'
 ---
