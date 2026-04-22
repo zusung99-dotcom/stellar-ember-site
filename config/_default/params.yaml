@@ -294,22 +294,3 @@ appearance:
   theme_night: hanyang
   font: korean
   font_size: L
-  - block: markdown
-    id: research  # 메뉴의 /#research 와 연결되는 이름표
-    content:
-      title: "연구 분야 | RESEARCH INTEREST"
-      subtitle: "미래 사회 안전을 위한 첨단 지진방재 및 내진공학 연구"
-      text: |
-        **한양대학교 지진방재 인력양성 사업단**은 건축 구조물의 안전성과 회복탄력성(Resilience)을 극대화하기 위해 내진공학 전반에 걸친 심도 있는 연구를 수행합니다. 재료 및 부재 단위부터 전체 구조 시스템에 이르기까지 다각적인 수준에서 거동을 분석하며, 탄탄한 이론을 바탕으로 고도화된 전산 해석과 실증적 실험(진동대 실험 등)을 병행하고 있습니다.
-        
-        우리의 주요 연구 관심사는 전통적인 내진공학을 넘어 미래 핵심 기술과 융합하는 데 있습니다.
-        
-        * **고도화된 내진설계 및 성능평가 (Advanced Seismic Design & Evaluation)**
-        * **지반-구조물 상호작용 및 방재안전 (Soil-Structure Interaction & Disaster Safety)**
-        * **기존 구조물의 첨단 내진보강 기법 (Seismic Retrofit for Existing Structures)**
-        * **4차 산업혁명 융합 기술 (Smart Disaster Prevention):** AI, 데이터 기반 손상 식별 및 구조 건전성 모니터링
-        
-        사업단의 궁극적인 목표는 국가 지진방재 인프라를 고도화하여 국민의 안전하고 지속 가능한 삶에 기여하고, 나아가 세계적 수준의 연구 역량으로 학계와 산업계를 이끌어갈 미래의 리더를 양성하는 것입니다.
-    design:
-      spacing:
-        padding: ["100px", "0", "100px", "0"] # 텍스트에 집중할 수 있도록 위아래 여백을 넉넉히 줍니다.
