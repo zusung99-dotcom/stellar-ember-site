@@ -102,10 +102,10 @@ hugoblox:
   # Site footer
   # ────────────────────────────────────────────────────────────────────────────
     footer:
-    style: minimal
-    language_switcher: true
-    # Custom footer text (HTML supported)
-    text: |
+      style: minimal
+      language_switcher: true
+      # Custom footer text (HTML supported)
+      text: |
       <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; width: 100%;">
         <div style="display: flex; gap: 20px; align-items: center; margin-bottom: 10px;">
           <img src="static/uploads/hanyang-logo.png" alt="한양대학교" style="height: 50px;">
