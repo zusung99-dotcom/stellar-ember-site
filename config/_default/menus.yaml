@@ -5,20 +5,20 @@
 
 main:
   - name: "사업 소개 | INTRODUCTION"
-    url: "/introduction/" 
+    url: /introduction/
     weight: 10
   - name: "구성원 | MEMBERS"
-    url: "/members/"
+    url: /members/
     weight: 20
   - name: "연구 | RESEARCH"
-    url: "/research/"
+    url: /research/
     weight: 30 
   - name: "이력사항 | PUBLICATION"
-    url: "/publication/"
+    url: /publication/
     weight: 40
   - name: "장비 소개 | INSTRUMENT"
-    url: "/instrument/"
+    url: /instrument/
     weight: 50
   - name: "게시판 | BOARD"
-    url: "/board/"
+    url: /board/
     weight: 60
