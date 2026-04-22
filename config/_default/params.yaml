@@ -108,8 +108,8 @@ hugoblox:
     text: |
       <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; width: 100%;">
         <div style="display: flex; gap: 20px; align-items: center; margin-bottom: 10px;">
-          <img src="assets/media/hanyang-logo.png" alt="한양대학교" style="height: 50px;">
-          <img src="assets/media/mois-logo.png" alt="행정안전부" style="height: 50px;">
+          <img src="static/uploads/hanyang-logo.png" alt="한양대학교" style="height: 50px;">
+          <img src="static/uploads/mois-logo.png" alt="행정안전부" style="height: 50px;">
         </div>
         <div style="text-align: right; line-height: 1.6; font-size: 0.9rem; color: inherit;">
           <strong>Structural analysis & Optimization Lab</strong><br>
