@@ -6,14 +6,15 @@ sections:
   # 1. 메인 배너 (대표 사진과 슬로건)
   - block: hero
     content:
-      title: "<span style='color: white;'>한양대학교 지진방재<br>인력양성 사업단</span>"
-      text: "<span style='color: white;'>미래 사회의 안전을 책임지는 지진방재 전문인력 양성</span>"
+      title: "한양대학교 지진방재<br>인력양성 사업단"
+      text: "미래 사회의 안전을 책임지는 지진방재 전문인력 양성"
     design:
       background:
+        text_color_light: true # ★ 글씨를 자동으로 하얗게 만들어주는 테마 전용 치트키입니다!
         image:
           filename: "main-bg.jpg"
-        filters:
-          brightness: 0.4 # 이 숫자를 0.3이나 0.4로 낮추면 원하시던 대로 묵직하고 어두워집니다!
+          filters:
+            brightness: 0.4 # 배경을 원하시는 느낌으로 묵직하게(0.4) 눌러줍니다.
       spacing:
         padding: ["120px", "0", "120px", "0"] # 위아래 여백을 조금 더 주어 시원하게 배치
 
