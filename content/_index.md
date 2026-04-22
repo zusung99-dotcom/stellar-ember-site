@@ -6,14 +6,14 @@ sections:
   # 1. 메인 배너 (대표 사진과 슬로건)
   - block: hero
     content:
-      title: "<span style='color: #FFFFFF;'>한양대학교 지진방재<br>인력양성 사업단</span>"
-      text: "<span style='color: #FFFFFF;'>미래 사회의 안전을 책임지는 지진방재 전문인력 양성</span>"
+      title: "<span style='color: white;'>한양대학교 지진방재<br>인력양성 사업단</span>"
+      text: "<span style='color: white;'>미래 사회의 안전을 책임지는 지진방재 전문인력 양성</span>"
     design:
       background:
         image:
           filename: "main-bg.jpg"
         filters:
-          brightness: 0.4 # 이 값을 높여 배경을 밝게 만들었습니다! (1에 가까울수록 밝아집니다)
+          brightness: 0.4 # 이 숫자를 0.3이나 0.4로 낮추면 원하시던 대로 묵직하고 어두워집니다!
       spacing:
         padding: ["120px", "0", "120px", "0"] # 위아래 여백을 조금 더 주어 시원하게 배치
 
