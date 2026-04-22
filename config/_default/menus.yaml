@@ -11,7 +11,7 @@ main:
     url: "/research/"
     weight: 30
 
-  - name: "성과 | OUTCOMES"
+  - name: "활동 | OUTCOMES"
     url: "/outcomes/"
     weight: 40
 
@@ -38,6 +38,16 @@ main:
   - name: "장비 소개 | INSTRUMENT"
     url: "/instrument/"
     weight: 50
+
+  - name: "소프트웨어"
+    parent: instrument
+    url: "/instrument/software/"
+    weight: 1
+
+  - name: "실물장비"
+    parent: instrument
+    url: "/instrument/hardware/"
+    weight: 2
 
   - name: "게시판 | BOARD"
     url: "/board/"
