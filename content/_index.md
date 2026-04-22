@@ -34,12 +34,14 @@ sections:
       spacing:
         padding: ["80px", "0", "80px", "0"]
 ---
-- block: markdown
-    id: introduction
+# 1. 사업 소개 상세 글 부분
+  - block: markdown
     content:
       title: "사업 소개"
       subtitle: "미래 사회의 안전을 책임지는 실무형 내진 전문인력 양성"
       text: |
+        <div id="introduction"></div>
+        **한반도는 더 이상 지진의 안전지대가 아닙니다.**
         최근 경주와 포항 지진은 우리 사회에 큰 경종을 울렸습니다. '한양대학교 지진방재 인력양성 사업단'은 이러한 국가적 위기에 대응하고 국민의 안전을 책임질 최고 수준의 내진 전문가를 양성하기 위해 출범하였습니다. 
         
         단순한 이론 교육을 넘어 현장 맞춤형 IC-PBL 교육과 첨단 실험 인프라를 통해 대한민국 지진방재의 미래를 이끌어갈 글로벌 인재를 키워냅니다.
@@ -47,6 +49,7 @@ sections:
       spacing:
         padding: ["80px", "0", "20px", "0"]
 
+  # 2. 사업의 4가지 핵심 강점
   - block: features
     content:
       items:
