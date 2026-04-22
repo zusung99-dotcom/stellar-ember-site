@@ -14,7 +14,7 @@ main:
     url: /research/
     weight: 30 
   - name: "성과 | OUTCOMES"
-    url: /publication/
+    url: /outcomes/
     weight: 40
   - name: "장비 소개 | INSTRUMENT"
     url: /instrument/
