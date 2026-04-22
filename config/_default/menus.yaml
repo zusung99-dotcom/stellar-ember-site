@@ -4,8 +4,9 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: 사업 소개<br>INTRODUCTION
-    url: /
+ - name: "INTRODUCTION"
+    pre: "<b style='font-weight:900;'>사업 소개</b><br>"
+    url: "#introduction" # (이 주소 부분은 기존 파일에 적혀있던 영어를 그대로 두세요!)
     weight: 10
   - name: 구성원<br>MEMBERS
     url: /#papers
