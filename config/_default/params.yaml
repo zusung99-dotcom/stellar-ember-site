@@ -106,7 +106,7 @@ hugoblox:
       language_switcher: true
       # Custom footer text (HTML supported)
       text: |
-      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; width: 100%;">
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; width: 100%;">
         <div style="display: flex; gap: 20px; align-items: center; margin-bottom: 10px;">
           <img src="static/uploads/hanyang-logo.png" alt="한양대학교" style="height: 50px;">
           <img src="static/uploads/mois-logo.png" alt="행정안전부" style="height: 50px;">
@@ -116,7 +116,7 @@ hugoblox:
           (우)04763, 서울특별시 성동구 왕십리로 222 한양대학교 과학기술관 610-1호<br>
           Tel. 02-2220-0312 [연구실]
         </div>
-      </div>
+       </div>
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT
   # Legal notices and licensing
