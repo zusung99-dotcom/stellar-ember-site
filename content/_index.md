@@ -13,7 +13,7 @@ sections:
         image:
           filename: "main-bg.jpg"
         filters:
-          brightness: 0.7 # 이 값을 높여 배경을 밝게 만들었습니다! (1에 가까울수록 밝아집니다)
+          brightness: 0.4 # 이 값을 높여 배경을 밝게 만들었습니다! (1에 가까울수록 밝아집니다)
       spacing:
         padding: ["120px", "0", "120px", "0"] # 위아래 여백을 조금 더 주어 시원하게 배치
 
