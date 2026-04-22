@@ -4,19 +4,19 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: INTRODUCTION
+  - name: 사업 소개<br>INTRODUCTION
     url: /
     weight: 10
-  - name: MEMBERS
+  - name: 구성원<br>MEMBERS
     url: /#papers
     weight: 11
-  - name: RESEARCH
+  - name: 연구
     url: /#talks
     weight: 12
-  - name: PUBLICATION
+  - name: 이력사항
     url: /#news
     weight: 13
-  - name: INSTRUMENT
+  - name: 
     url: experience/
     weight: 20
   - name: BOARD
