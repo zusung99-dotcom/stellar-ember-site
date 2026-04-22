@@ -11,9 +11,15 @@ sections:
       text: |
         **한양대학교 지진방재 전문인력 양성 사업단**의 학술 연구 성과
     design:
+      background:
+        image:
+          filename: "Research_V1.jpg"
+          filters:
+            brightness: 0.4
+        text_color_light: true
       text_align: center
       spacing:
-        padding: ["2rem", "0", "2rem", "0"]
+        padding: ["6rem", "0", "6rem", "0"]
 
   - block: markdown
     id: overview
