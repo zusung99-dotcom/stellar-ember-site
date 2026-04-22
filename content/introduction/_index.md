@@ -15,7 +15,7 @@ sections:
         **전문지식과 실무능력을 겸비한 지진방재 전문인력**을 양성합니다.
     design:
       background:
-        image: "nasa-yZygONrUBe8-unsplash.jpg"
+        image: "assets/media/nasa-yZygONrUBe8-unsplash.jpg"
         position: center
         size: cover
       text_align: center
