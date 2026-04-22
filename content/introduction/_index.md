@@ -9,7 +9,7 @@ sections:
       title: |
         사업 소개<br><span class="text-primary">INTRODUCTION</span>
       text: |
-     한양대학교 지진방재 전문인력 양성 사업단
+         한양대학교 지진방재 전문인력 양성 사업단
 
         체계적 교육 인프라와 학술연구–산학 연계 네트워크를 통해  
         **전문지식과 실무능력을 겸비한 지진방재 전문인력**을 양성합니다.
