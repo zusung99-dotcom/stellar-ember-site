@@ -13,7 +13,7 @@ main:
   - name: "연구 | RESEARCH"
     url: /research/
     weight: 30 
-  - name: "성과 | PUBLICATION"
+  - name: "성과 | OUTCOMES"
     url: /publication/
     weight: 40
   - name: "장비 소개 | INSTRUMENT"
