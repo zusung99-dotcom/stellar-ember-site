@@ -9,19 +9,19 @@ type: landing
 {{< /block >}}
 
 {{< block section="features" >}}
-- name: "학술지 논문 (Journal Papers)"
+- name: "지진방재마이크로전공 개설"
   description: "국내외 주요 학술지에 게재된 연구 논문"
   icon: "fas fa-file-alt"
   url: "/outcomes/journals/"  # 클릭 시 이동할 세부 주소
-- name: "학술대회 (Conferences)"
+- name: "외부전문가 특강"
   description: "국내외 학술대회 발표 및 프로시딩"
   icon: "fas fa-users"
   url: "/outcomes/conferences/"
-- name: "특허 및 소프트웨어"
+- name: "학술발표"
   description: "기술 이전 및 지식재산권 확보 현황"
   icon: "fas fa-certificate"
   url: "/outcomes/patents/"
-- name: "수상 실적 (Awards)"
+- name: "홍보용 배너전시"
   description: "대외 수상 및 주요 성과 인증"
   icon: "fas fa-trophy"
   url: "/outcomes/awards/"
