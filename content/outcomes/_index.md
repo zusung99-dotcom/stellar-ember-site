@@ -9,6 +9,8 @@ sections:
       text: "지진방재 전문인력 양성을 위한 주요 성과를 소개합니다."
 
   - block: features
+    design:
+      columns: 2   # 👉 2열 카드 (깔끔)
     content:
       items:
         - name: "지진방재마이크로전공 개설"
