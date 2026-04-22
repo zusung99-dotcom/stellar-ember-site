@@ -16,7 +16,7 @@ sections:
     design:
       background:
         image:
-          filename: "nasa-yZygONrUBe8-unsplash.jpg"
+          filename: "Gemini_Generated_Image_n4uys2n4uys2n4uy.png"
           filters:
             brightness: 0.7
         text_color_light: true # 배경이 어두울 때 글씨를 흰색으로 변경해 줍니다.
