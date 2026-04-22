@@ -4,7 +4,7 @@ date: 2026-04-22
 type: landing
 
 sections:
- - block: hero
+  - block: hero
     content:
       title: |
         사업 소개<br><span class="text-primary">INTRODUCTION</span>
@@ -13,18 +13,17 @@ sections:
 
         체계적 교육 인프라와 학술연구-산학 연계 네트워크를 통해
         **전문지식과 실무능력을 겸비한 지진방재 전문인력**을 양성합니다.
-
-design:
+    design:
       background:
         image:
-          # 여기에 파일 이름만 적어주세요. 
-          # 단, 사진 파일은 반드시 레포지토리의 'assets/media/' 폴더 안에 있어야 합니다!
-          filename: "nasa-yZygONrUBe8-unsplash.jpg" 
+          filename: "nasa-yZygONrUBe8-unsplash.jpg"
           filters:
-            brightness: 0.7 # 이미지가 너무 밝으면 글씨가 안 보일 수 있어 살짝 어둡게 처리 (선택사항)
+            brightness: 0.7
+        text_color_light: true # 배경이 어두울 때 글씨를 흰색으로 변경해 줍니다.
       text_align: center
       spacing:
         padding: ["2rem", "0", "2rem", "0"]
+
   - block: markdown
     id: background
     content:
