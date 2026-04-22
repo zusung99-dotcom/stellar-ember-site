@@ -13,7 +13,7 @@ sections:
     design:
       background:
         image:
-          filename: "Research_V1.jpg"
+          filename: "research-bg.png"
           filters:
             brightness: 0.4
         text_color_light: true
