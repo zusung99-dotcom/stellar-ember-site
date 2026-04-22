@@ -11,14 +11,14 @@ sections:
       text: |
         *** 한양대학교 지진방재 전문인력 양성 사업단
 
-        체계적 교육 인프라와 학술연구-산학 연계 네트워크를 통해
-        **전문지식과 실무능력을 겸비한 지진방재 전문인력**을 양성합니다.
+        ***체계적 교육 인프라와 학술연구-산학 연계 네트워크를 통해
+          전문지식과 실무능력을 겸비한 지진방재 전문인력**을 양성합니다.
     design:
       background:
         image:
           filename: "Gemini_Generated_Image_n4uys2n4uys2n4uy.png"
           filters:
-            brightness: 0.7
+            brightness: 0.5
         text_color_light: true # 배경이 어두울 때 글씨를 흰색으로 변경해 줍니다.
       text_align: center
       spacing:
