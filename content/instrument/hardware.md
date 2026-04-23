@@ -10,6 +10,14 @@ authors: []
 <style>
   /* 상단 자동 생성 제목 및 메타데이터 숨김 */
   h1, .article-metadata { display: none !important; }
+  
+  /* 이미지 스타일링: 박스 안에 꽉 차게 설정 */
+  .instrument-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 비율 유지하며 꽉 채움 */
+    border-radius: 4px;
+  }
 </style>
 
 지진방재 실험 및 구조물 계측에 활용되는 실물장비의 사양과 용도에 대한 설명입니다.
@@ -19,9 +27,9 @@ authors: []
   <h2 style="border-left: 5px solid #2a52be; padding-left: 12px; margin-bottom: 3rem; color: #1a1a1a;">Instrument</h2>
 
   <div style="display: flex; align-items: flex-start; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 2px dotted #cccccc; width: 100%;">
-    <div style="width: 280px; height: 180px; background-color: #f8f9fa; border: 1px solid #e5e5e5; display: flex; align-items: center; justify-content: center; margin-right: 4rem; flex-shrink: 0; color: #999;">
-      <p>이미지 준비 중</p>
-      </div>
+    <div style="width: 280px; height: 180px; background-color: #f8f9fa; border: 1px solid #e5e5e5; margin-right: 4rem; flex-shrink: 0; overflow: hidden;">
+      <img src="/uploads/가속도계.png" alt="가속도 측정기 ES-U2" class="instrument-img" onerror="this.src='https://via.placeholder.com/280x180?text=No+Image'">
+    </div>
     <div style="flex-grow: 1;">
       <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">가속도 측정기 (ES-U2)</h3>
       <ul style="list-style-type: none; padding-left: 0; margin: 0; line-height: 1.9; font-size: 1.1rem;">
@@ -34,9 +42,9 @@ authors: []
   </div>
 
   <div style="display: flex; align-items: flex-start; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 2px dotted #cccccc; width: 100%;">
-    <div style="width: 280px; height: 180px; background-color: #f8f9fa; border: 1px solid #e5e5e5; display: flex; align-items: center; justify-content: center; margin-right: 4rem; flex-shrink: 0; color: #999;">
-      <p>이미지 준비 중</p>
-      </div>
+    <div style="width: 280px; height: 180px; background-color: #f8f9fa; border: 1px solid #e5e5e5; margin-right: 4rem; flex-shrink: 0; overflow: hidden;">
+      <img src="/uploads/data.png" alt="전자계측기 Netpod4003" class="instrument-img" onerror="this.src='https://via.placeholder.com/280x180?text=No+Image'">
+    </div>
     <div style="flex-grow: 1;">
       <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">전자계측기 (Netpod4003)</h3>
       <ul style="list-style-type: none; padding-left: 0; margin: 0; line-height: 1.9; font-size: 1.1rem;">
@@ -49,9 +57,9 @@ authors: []
   </div>
 
   <div style="display: flex; align-items: flex-start; margin-bottom: 3rem; width: 100%;">
-    <div style="width: 280px; height: 180px; background-color: #f8f9fa; border: 1px solid #e5e5e5; display: flex; align-items: center; justify-content: center; margin-right: 4rem; flex-shrink: 0; color: #999;">
-      <p>이미지 준비 중</p>
-      </div>
+    <div style="width: 280px; height: 180px; background-color: #f8f9fa; border: 1px solid #e5e5e5; margin-right: 4rem; flex-shrink: 0; overflow: hidden;">
+      <img src="/uploads/xx.png" alt="진동 분석기 NI PXI" class="instrument-img" onerror="this.src='https://via.placeholder.com/280x180?text=No+Image'">
+    </div>
     <div style="flex-grow: 1;">
       <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">진동 분석기 (NI PXI 시스템)</h3>
       <ul style="list-style-type: none; padding-left: 0; margin: 0; line-height: 1.9; font-size: 1.1rem;">
