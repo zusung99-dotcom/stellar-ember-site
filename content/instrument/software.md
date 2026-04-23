@@ -1,6 +1,10 @@
 ---
 title: "소프트웨어"
 summary: "지진해석·구조설계에 활용되는 해석 소프트웨어"
+show_breadcrumb: false
+share: false
+profile: false
+authors: []
 ---
 
 지진방재 연구에 활용되는 해석 소프트웨어의 종류와 용도에 대한 설명입니다.
