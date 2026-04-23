@@ -1,5 +1,5 @@
 ---
-title: 구성원
+title: 참여 학생
 date: 2026-04-22
 type: landing
 
@@ -7,7 +7,7 @@ sections:
   - block: hero
     content:
       title: |
-        구성원<br><span class="text-primary">MEMBERS</span>
+        참여 학생<br><span class="text-primary">MEMBERS</span>
       text: |
         **한양대학교 지진방재 전문인력 양성 사업단 참여 대학원생**
     design:
@@ -26,9 +26,7 @@ sections:
     content:
       title: ""
       text: |
-        <div style="background:#8B0000;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">
-        유은종 교수 연구실
-        </div>
+        <div style="background:#8B0000;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">유은종 교수 연구실</div>
 
         **지도교수:** 유은종 교수 (eunjongyu@hanyang.ac.kr)
 
@@ -67,9 +65,7 @@ sections:
     content:
       title: ""
       text: |
-        <div style="background:#8B0000;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">
-        한상환 교수 연구실
-        </div>
+        <div style="background:#8B0000;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">한상환 교수 연구실</div>
 
         **지도교수:** 한상환 교수 (swhan@hanyang.ac.kr)
 
@@ -99,14 +95,12 @@ sections:
       spacing:
         padding: ["1rem", "0", "1rem", "0"]
 
- - block: markdown
+  - block: markdown
     id: choi-changsik
     content:
       title: ""
       text: |
-        <div style="background:#8B0000;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">
-        최창식 교수 연구실
-        </div>
+        <div style="background:#8B0000;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">최창식 교수 연구실</div>
 
         **지도교수:** 최창식 교수 (ccs5530@hanyang.ac.kr)
 
@@ -135,14 +129,12 @@ sections:
       spacing:
         padding: ["1rem", "0", "1rem", "0"]
 
- - block: markdown
+  - block: markdown
     id: jeon-jongsu
     content:
       title: ""
       text: |
-        <div style="background:#8B0000;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">
-        전종수 교수 연구실
-        </div>
+        <div style="background:#8B0000;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">전종수 교수 연구실</div>
 
         **지도교수:** 전종수 교수 (jongsujeon@hanyang.ac.kr)
 
@@ -179,14 +171,12 @@ sections:
       spacing:
         padding: ["1rem", "0", "1rem", "0"]
 
- - block: markdown
+  - block: markdown
     id: park-duhee
     content:
       title: ""
       text: |
-        <div style="background:#8B0000;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">
-        박두희 교수 연구실
-        </div>
+        <div style="background:#8B0000;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">박두희 교수 연구실</div>
 
         **지도교수:** 박두희 교수 (dpark@hanyang.ac.kr)
 
