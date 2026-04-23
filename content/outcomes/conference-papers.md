@@ -39,7 +39,6 @@ authors: []
 <div class="photo-grid">
   <img src="/uploads/학1.png" alt="학술발표 사진 1" class="photo-item" onerror="this.src='https://via.placeholder.com/400x300?text=Image+1'">
   <img src="/uploads/학2.png" alt="학술발표 사진 2" class="photo-item" onerror="this.src='https://via.placeholder.com/400x300?text=Image+2'">
-  <img src="/uploads/학3.png" alt="학술발표 사진 3" class="photo-item" onerror="this.src='https://via.placeholder.com/400x300?text=Image+3'">
 </div>
 
 ---
