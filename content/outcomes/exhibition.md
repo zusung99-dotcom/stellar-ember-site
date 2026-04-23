@@ -14,6 +14,6 @@ summary: "사업단 홍보 및 성과 확산을 위한 전시 활동"
 
 ## 전시 사진
 
-![홍보용 배너 전시 1](/assets/media/exhibition_01.png)
+![홍보용 배너 전시 1](/media/exhibition_01.png)
 
-![홍보용 배너 전시 2](/assets/media/exhibition_02.png)
+![홍보용 배너 전시 2](/media/exhibition_02.png)
