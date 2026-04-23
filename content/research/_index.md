@@ -33,7 +33,7 @@ sections:
       spacing:
         padding: ["1rem", "0", "1rem", "0"]
 
-- block: markdown
+  - block: markdown
     id: intl-journals
     content:
       title: 국제 학술지 논문 (SCI)
