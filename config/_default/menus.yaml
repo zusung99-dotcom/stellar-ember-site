@@ -38,8 +38,8 @@ main:
     weight: 5
   # --- 활동 | OUTCOMES 그룹 끝 ---
 
-  # --- 장비 소개 | INSTRUMENT 그룹 시작 ---
-  - name: "장비 소개 | INSTRUMENT"
+  # --- 시설 및 장비 | INSTRUMENT 그룹 시작 ---
+  - name: "시설 및 장비 | INSTRUMENT"
     url: "/instrument/"
     identifier: instrument
     weight: 50
@@ -49,8 +49,14 @@ main:
     url: "/instrument/software/"
     weight: 1
 
-  - name: "실물장비"
+  - name: "하드웨어"
     parent: instrument
     url: "/instrument/hardware/"
     weight: 2
+  
+  - name: "시설 공간"
+    parent: instrument
+    url: "/instrument/space/"
+    weight: 3
+    
   # --- 장비 소개 | INSTRUMENT 그룹 끝 ---
