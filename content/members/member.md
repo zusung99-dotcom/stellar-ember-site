@@ -26,7 +26,7 @@ sections:
     content:
       title: ""
       text: |
-        <div style="background:#8B0000;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">유은종 교수 연구실</div>
+        <div style="background:#0E4A84;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">유은종 교수 연구실</div>
 
         **지도교수:** 유은종 교수 (eunjongyu@hanyang.ac.kr)
 
@@ -65,7 +65,7 @@ sections:
     content:
       title: ""
       text: |
-        <div style="background:#8B0000;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">한상환 교수 연구실</div>
+        <div style="background:#0E4A84;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">한상환 교수 연구실</div>
 
         **지도교수:** 한상환 교수 (swhan@hanyang.ac.kr)
 
@@ -100,7 +100,7 @@ sections:
     content:
       title: ""
       text: |
-        <div style="background:#8B0000;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">최창식 교수 연구실</div>
+        <div style="background:#0E4A84;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">최창식 교수 연구실</div>
 
         **지도교수:** 최창식 교수 (ccs5530@hanyang.ac.kr)
 
@@ -134,7 +134,7 @@ sections:
     content:
       title: ""
       text: |
-        <div style="background:#8B0000;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">전종수 교수 연구실</div>
+        <div style="background:#0E4A84;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">전종수 교수 연구실</div>
 
         **지도교수:** 전종수 교수 (jongsujeon@hanyang.ac.kr)
 
@@ -176,7 +176,7 @@ sections:
     content:
       title: ""
       text: |
-        <div style="background:#8B0000;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">박두희 교수 연구실</div>
+        <div style="background:#0E4A84;color:#fff;padding:0.8rem 1.2rem;border-radius:6px;font-size:1.3rem;font-weight:700;margin:1.5rem 0 1rem 0;display:inline-block;">박두희 교수 연구실</div>
 
         **지도교수:** 박두희 교수 (dpark@hanyang.ac.kr)
 
