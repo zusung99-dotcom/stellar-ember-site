@@ -25,7 +25,7 @@ sections:
     content:
       title: 참여 교수진
       text: |
-        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:1.5rem 0;">
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:1.5rem 0;">
 
           <div style="border:1px solid #e5e7eb;border-left:4px solid #0E4A84;border-radius:8px;padding:1.2rem;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,0.05);">
             <div style="font-size:1.15rem;font-weight:700;color:#0E4A84;margin-bottom:0.3rem;">유은종 <span style="font-size:0.9rem;font-weight:500;color:#666;">교수</span></div>
