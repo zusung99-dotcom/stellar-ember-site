@@ -33,7 +33,7 @@ sections:
         <div style="overflow-x:auto;width:100%;">
         <table style="width:100%;min-width:900px;border-collapse:collapse;white-space:nowrap;font-size:0.95rem;">
         <thead>
-        <tr style="background:#f5f5f5;border-bottom:2px solid #8B0000;">
+        <tr style="background:#f5f5f5;border-bottom:2px solid #0E4A84;">
         <th style="padding:0.6rem;text-align:center;">성명</th>
         <th style="padding:0.6rem;text-align:center;">소속</th>
         <th style="padding:0.6rem;text-align:center;">직위</th>
@@ -72,7 +72,7 @@ sections:
         <div style="overflow-x:auto;width:100%;">
         <table style="width:100%;min-width:900px;border-collapse:collapse;white-space:nowrap;font-size:0.95rem;">
         <thead>
-        <tr style="background:#f5f5f5;border-bottom:2px solid #8B0000;">
+        <tr style="background:#f5f5f5;border-bottom:2px solid #0E4A84;">
         <th style="padding:0.6rem;text-align:center;">성명</th>
         <th style="padding:0.6rem;text-align:center;">소속</th>
         <th style="padding:0.6rem;text-align:center;">직위</th>
@@ -107,7 +107,7 @@ sections:
         <div style="overflow-x:auto;width:100%;">
         <table style="width:100%;min-width:900px;border-collapse:collapse;white-space:nowrap;font-size:0.95rem;">
         <thead>
-        <tr style="background:#f5f5f5;border-bottom:2px solid #8B0000;">
+        <tr style="background:#f5f5f5;border-bottom:2px solid #0E4A84;">
         <th style="padding:0.6rem;text-align:center;">성명</th>
         <th style="padding:0.6rem;text-align:center;">소속</th>
         <th style="padding:0.6rem;text-align:center;">직위</th>
@@ -141,7 +141,7 @@ sections:
         <div style="overflow-x:auto;width:100%;">
         <table style="width:100%;min-width:900px;border-collapse:collapse;white-space:nowrap;font-size:0.95rem;">
         <thead>
-        <tr style="background:#f5f5f5;border-bottom:2px solid #8B0000;">
+        <tr style="background:#f5f5f5;border-bottom:2px solid #0E4A84;">
         <th style="padding:0.6rem;text-align:center;">성명</th>
         <th style="padding:0.6rem;text-align:center;">소속</th>
         <th style="padding:0.6rem;text-align:center;">직위</th>
@@ -183,7 +183,7 @@ sections:
         <div style="overflow-x:auto;width:100%;">
         <table style="width:100%;min-width:900px;border-collapse:collapse;white-space:nowrap;font-size:0.95rem;">
         <thead>
-        <tr style="background:#f5f5f5;border-bottom:2px solid #8B0000;">
+        <tr style="background:#f5f5f5;border-bottom:2px solid #0E4A84;">
         <th style="padding:0.6rem;text-align:center;">성명</th>
         <th style="padding:0.6rem;text-align:center;">소속</th>
         <th style="padding:0.6rem;text-align:center;">직위</th>
