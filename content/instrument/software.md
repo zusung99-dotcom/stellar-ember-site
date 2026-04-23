@@ -34,12 +34,9 @@ authors: []
     <div style="flex-grow: 1;">
       <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">ETABS</h3>
       <ul style="list-style-type: none; padding-left: 0; margin: 0; line-height: 1.9; font-size: 1.1rem;">
-        <li><strong>▪ 분 류:</strong> 프로그램</li>
-        <li><strong>▪ 기자재명:</strong> ETABS</li>
         <li><strong>▪ 사용용도:</strong> 건축 구조물 통합 해석 및 설계</li>
-        <li><strong>▪ 제작회사:</strong> CSI</li>
-        <li><strong>▪ 보유수량:</strong> 1EA</li>
-        <li style="margin-top: 1rem; color: #555;">ETABS는 건축 구조물에 특화된 해석 및 설계 소프트웨어로, 정적/동적 해석은 물론 횡력 저항 시스템 분석에 탁월합니다. </li>
+        <li><strong>▪ 제작회사:</strong> Computers & Structures</li>
+        <li style="margin-top: 1rem; color: #555;">ETABS is the industry standard for the structural analysis and design of commercial and residential buildings. Widely used in architectural and structural engineering, it is specifically optimized for multi-story building systems. It streamlines the complex modeling process for floors, shear walls, and steel frames. Engineers rely heavily on ETABS to analyze the effects of lateral loads, like wind and seismic forces, making it an essential tool for designing safe high-rise structures. </li>
       </ul>
     </div>
   </div>
@@ -49,12 +46,9 @@ authors: []
     <div style="flex-grow: 1;">
       <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">SAP2000</h3>
       <ul style="list-style-type: none; padding-left: 0; margin: 0; line-height: 1.9; font-size: 1.1rem;">
-        <li><strong>▪ 분 류:</strong> 프로그램</li>
-        <li><strong>▪ 기자재명:</strong> SAP2000</li>
         <li><strong>▪ 사용용도:</strong> 범용 유한요소 해석 및 설계</li>
-        <li><strong>▪ 제작회사:</strong> CSI</li>
-        <li><strong>▪ 보유수량:</strong> 1EA</li>
-        <li style="margin-top: 1rem; color: #555;">SAP2000은 교량, 산업 설비 등 다양한 토목/건축 구조물의 3차원 정형 및 비정형 해석이 가능한 범용 구조 해석 프로그램입니다.</li>
+        <li><strong>▪ 제작회사:</strong> Computers & Structures</li>
+        <li style="margin-top: 1rem; color: #555;">Used in broad civil and structural engineering fields, SAP2000 is a highly versatile, general-purpose 3D finite element analysis (FEA) and design software. Unlike ETABS, which strictly focuses on buildings, SAP2000 is ideal for complex, non-traditional structures such as bridges, stadiums, dams, and industrial facilities. It offers a flexible modeling environment and powerful analytical engines, allowing engineers to perform both static and dynamic analyses for practically any type of structural system.</li>
       </ul>
     </div>
   </div>
@@ -62,14 +56,11 @@ authors: []
   <div style="display: flex; align-items: flex-start; margin-bottom: 2rem; width: 100%;">
     <img src="/uploads/midas_logo.png" style="width: 280px; margin-right: 4rem; flex-shrink: 0; border: 1px solid #e5e5e5; padding: 5px;" alt="MIDAS">
     <div style="flex-grow: 1;">
-      <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">MIDAS (Gen / Civil)</h3>
+      <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">MIDAS</h3>
       <ul style="list-style-type: none; padding-left: 0; margin: 0; line-height: 1.9; font-size: 1.1rem;">
-        <li><strong>▪ 분 류:</strong> 프로그램</li>
-        <li><strong>▪ 기자재명:</strong> MIDAS</li>
         <li><strong>▪ 사용용도:</strong> 건축/토목 통합 구조 해석 및 최적 설계</li>
         <li><strong>▪ 제작회사:</strong> 마이다스아이티 (MIDAS IT)</li>
-        <li><strong>▪ 보유수량:</strong> 1EA</li>
-        <li style="margin-top: 1rem; color: #555;">국내 실무에서 가장 널리 사용되는 마이다스 프로그램으로, 사용자 친화적인 인터페이스와 직관적인 모델링을 제공합니다.</li>
+        <li style="margin-top: 1rem; color: #555;">MIDAS is a comprehensive software suite used extensively in civil and structural engineering globally. MIDAS Gen focuses on general building structures, while MIDAS Civil is highly specialized for bridge design and analysis. Known for its highly intuitive user interface and fast processing speed, it covers everything from basic structural analysis to optimal design detailing. It is widely favored by engineers for practical, day-to-day modeling, offering highly efficient workflows.</li>
       </ul>
     </div>
   </div>
