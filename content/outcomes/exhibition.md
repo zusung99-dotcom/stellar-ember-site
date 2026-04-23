@@ -16,8 +16,8 @@ authors: []
 | **설치 목적** | 행안부 지진방재 전문인력 양성사업 홍보 및 신입생 유치 |
 | **설치 기간** | 2025.11.25 ~ 사업 종료시까지 |
 
+
 ## 전시 사진
 
-![홍보용 배너 전시 1](/static/uploads/media/exhibition_01.png)
-
-![홍보용 배너 전시 2](/static/uploads/media/exhibition_02.png)
+![홍보용 배너 전시 1]{{< figure src=/static/uploads/exhibition_01.png >}}
+![홍보용 배너 전시 2]{{< figure src=/static/uploads/exhibition_02.png >}}
