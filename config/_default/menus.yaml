@@ -11,6 +11,7 @@ main:
     url: "/research/"
     weight: 30
 
+  # 1. identifier 추가
   - name: "활동 | OUTCOMES"
     url: "/outcomes/"
     weight: 40
@@ -34,7 +35,8 @@ main:
     parent: outcomes
     url: "/outcomes/exhibition/"
     weight: 4
-
+    
+  # 2. identifier 추가
   - name: "장비 소개 | INSTRUMENT"
     url: "/instrument/"
     weight: 50
