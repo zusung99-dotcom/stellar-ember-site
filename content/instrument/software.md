@@ -18,7 +18,7 @@ authors: []
   <h2 style="border-left: 5px solid #2a52be; padding-left: 12px; margin-bottom: 3rem; color: #1a1a1a;">Software</h2>
 
   <div style="display: flex; align-items: flex-start; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 2px dotted #cccccc; width: 100%;">
-    <img src="/uploads/perform3d_logo.png" style="width: 280px; margin-right: 4rem; flex-shrink: 0; border: 1px solid #e5e5e5; padding: 5px;" alt="Perform 3D">
+    <img src="/uploads/Perform3D.png" style="width: 280px; margin-right: 4rem; flex-shrink: 0; border: 1px solid #e5e5e5; padding: 5px;" alt="Perform 3D">
     <div style="flex-grow: 1;">
       <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">Perform 3D</h3>
       <ul style="list-style-type: none; padding-left: 0; margin: 0; line-height: 1.9; font-size: 1.1rem;">
@@ -30,7 +30,7 @@ authors: []
   </div>
 
   <div style="display: flex; align-items: flex-start; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 2px dotted #cccccc; width: 100%;">
-    <img src="/uploads/etabs_logo.png" style="width: 280px; margin-right: 4rem; flex-shrink: 0; border: 1px solid #e5e5e5; padding: 5px;" alt="ETABS">
+    <img src="/uploads/ETABS.png" style="width: 280px; margin-right: 4rem; flex-shrink: 0; border: 1px solid #e5e5e5; padding: 5px;" alt="ETABS">
     <div style="flex-grow: 1;">
       <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">ETABS</h3>
       <ul style="list-style-type: none; padding-left: 0; margin: 0; line-height: 1.9; font-size: 1.1rem;">
@@ -42,7 +42,7 @@ authors: []
   </div>
 
   <div style="display: flex; align-items: flex-start; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 2px dotted #cccccc; width: 100%;">
-    <img src="/uploads/sap2000_logo.png" style="width: 280px; margin-right: 4rem; flex-shrink: 0; border: 1px solid #e5e5e5; padding: 5px;" alt="SAP2000">
+    <img src="/uploads/Sap2000.png" style="width: 280px; margin-right: 4rem; flex-shrink: 0; border: 1px solid #e5e5e5; padding: 5px;" alt="SAP2000">
     <div style="flex-grow: 1;">
       <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">SAP2000</h3>
       <ul style="list-style-type: none; padding-left: 0; margin: 0; line-height: 1.9; font-size: 1.1rem;">
@@ -54,7 +54,7 @@ authors: []
   </div>
 
   <div style="display: flex; align-items: flex-start; margin-bottom: 2rem; width: 100%;">
-    <img src="/uploads/midas_logo.png" style="width: 280px; margin-right: 4rem; flex-shrink: 0; border: 1px solid #e5e5e5; padding: 5px;" alt="MIDAS">
+    <img src="/uploads/Midas.png" style="width: 280px; margin-right: 4rem; flex-shrink: 0; border: 1px solid #e5e5e5; padding: 5px;" alt="MIDAS">
     <div style="flex-grow: 1;">
       <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">MIDAS</h3>
       <ul style="list-style-type: none; padding-left: 0; margin: 0; line-height: 1.9; font-size: 1.1rem;">
