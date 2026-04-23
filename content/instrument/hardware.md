@@ -11,11 +11,11 @@ authors: []
   /* 상단 자동 생성 제목 및 메타데이터 숨김 */
   h1, .article-metadata { display: none !important; }
   
-  /* 이미지 스타일링: 박스 안에 꽉 차게 설정 */
+  /* 이미지 스타일링: 박스 없이 사진 비율 유지 */
   .instrument-img {
     width: 100%;
-    height: 100%;
-    object-fit: cover; /* 비율 유지하며 꽉 채움 */
+    max-height: 180px; /* 텍스트 높이와 맞추기 위한 제한 */
+    object-fit: contain; /* 비율 유지하며 짤리지 않게 설정 */
     border-radius: 4px;
   }
 </style>
@@ -27,7 +27,7 @@ authors: []
   <h2 style="border-left: 5px solid #2a52be; padding-left: 12px; margin-bottom: 3rem; color: #1a1a1a;">Instrument</h2>
 
   <div style="display: flex; align-items: flex-start; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 2px dotted #cccccc; width: 100%;">
-    <div style="width: 280px; height: 180px; background-color: #f8f9fa; border: 1px solid #e5e5e5; margin-right: 4rem; flex-shrink: 0; overflow: hidden;">
+    <div style="width: 280px; margin-right: 4rem; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
       <img src="/uploads/가속도계.png" alt="가속도 측정기 ES-U2" class="instrument-img" onerror="this.src='https://via.placeholder.com/280x180?text=No+Image'">
     </div>
     <div style="flex-grow: 1;">
@@ -42,7 +42,7 @@ authors: []
   </div>
 
   <div style="display: flex; align-items: flex-start; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 2px dotted #cccccc; width: 100%;">
-    <div style="width: 280px; height: 180px; background-color: #f8f9fa; border: 1px solid #e5e5e5; margin-right: 4rem; flex-shrink: 0; overflow: hidden;">
+    <div style="width: 280px; margin-right: 4rem; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
       <img src="/uploads/data.png" alt="전자계측기 Netpod4003" class="instrument-img" onerror="this.src='https://via.placeholder.com/280x180?text=No+Image'">
     </div>
     <div style="flex-grow: 1;">
@@ -57,7 +57,7 @@ authors: []
   </div>
 
   <div style="display: flex; align-items: flex-start; margin-bottom: 3rem; width: 100%;">
-    <div style="width: 280px; height: 180px; background-color: #f8f9fa; border: 1px solid #e5e5e5; margin-right: 4rem; flex-shrink: 0; overflow: hidden;">
+    <div style="width: 280px; margin-right: 4rem; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
       <img src="/uploads/xx.png" alt="진동 분석기 NI PXI" class="instrument-img" onerror="this.src='https://via.placeholder.com/280x180?text=No+Image'">
     </div>
     <div style="flex-grow: 1;">
