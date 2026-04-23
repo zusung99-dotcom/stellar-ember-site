@@ -8,7 +8,16 @@ authors: []
 ---
 
 <style>
+  /* 상단 자동 생성 제목 및 메타데이터 숨김 */
   h1, .article-metadata { display: none !important; }
+  
+  /* 이미지 스타일링: 배경 박스 없이 사진만 깔끔하게 표시 */
+  .space-img {
+    width: 100%;
+    max-height: 180px; 
+    object-fit: contain; /* 사진 비율 유지 */
+    border-radius: 4px;
+  }
 </style>
 
 지진방재 전문인력 양성 사업단이 보유한 교육 및 실험 공간에 대한 소개입니다. 강의·세미나 시설과 구조·동적재료·복합재난대응 실험실을 통해 이론 교육과 실물실험을 병행할 수 있는 인프라를 갖추고 있습니다.
@@ -17,10 +26,9 @@ authors: []
 
   <h2 style="border-left: 5px solid #2a52be; padding-left: 12px; margin-bottom: 3rem; color: #1a1a1a;">Space</h2>
 
-  <!-- 1. 창의설계 세미나실 -->
   <div style="display: flex; align-items: flex-start; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 2px dotted #cccccc; width: 100%;">
-    <div style="width: 280px; height: 180px; background-color: #f8f9fa; border: 1px solid #e5e5e5; display: flex; align-items: center; justify-content: center; margin-right: 4rem; flex-shrink: 0; color: #999;">
-      <p>이미지 준비 중</p>
+    <div style="width: 280px; margin-right: 4rem; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+      <img src="/uploads/seminar.png" alt="창의설계 세미나실" class="space-img" onerror="this.src='https://via.placeholder.com/280x180?text=No+Image'">
     </div>
     <div style="flex-grow: 1;">
       <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">창의설계 세미나실</h3>
@@ -34,10 +42,9 @@ authors: []
     </div>
   </div>
 
-  <!-- 2. 융합공학 스튜디오 -->
   <div style="display: flex; align-items: flex-start; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 2px dotted #cccccc; width: 100%;">
-    <div style="width: 280px; height: 180px; background-color: #f8f9fa; border: 1px solid #e5e5e5; display: flex; align-items: center; justify-content: center; margin-right: 4rem; flex-shrink: 0; color: #999;">
-      <p>이미지 준비 중</p>
+    <div style="width: 280px; margin-right: 4rem; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+      <img src="/uploads/studio.png" alt="융합공학 스튜디오" class="space-img" onerror="this.src='https://via.placeholder.com/280x180?text=No+Image'">
     </div>
     <div style="flex-grow: 1;">
       <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">융합공학 스튜디오 1·2·3·4</h3>
@@ -51,10 +58,9 @@ authors: []
     </div>
   </div>
 
-  <!-- 3. 구조 실험실 -->
   <div style="display: flex; align-items: flex-start; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 2px dotted #cccccc; width: 100%;">
-    <div style="width: 280px; height: 180px; background-color: #f8f9fa; border: 1px solid #e5e5e5; display: flex; align-items: center; justify-content: center; margin-right: 4rem; flex-shrink: 0; color: #999;">
-      <p>이미지 준비 중</p>
+    <div style="width: 280px; margin-right: 4rem; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+      <img src="/uploads/structural_lab.png" alt="구조 실험실" class="space-img" onerror="this.src='https://via.placeholder.com/280x180?text=No+Image'">
     </div>
     <div style="flex-grow: 1;">
       <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">구조 실험실</h3>
@@ -68,10 +74,9 @@ authors: []
     </div>
   </div>
 
-  <!-- 4. 동적재료 실험실 -->
   <div style="display: flex; align-items: flex-start; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 2px dotted #cccccc; width: 100%;">
-    <div style="width: 280px; height: 180px; background-color: #f8f9fa; border: 1px solid #e5e5e5; display: flex; align-items: center; justify-content: center; margin-right: 4rem; flex-shrink: 0; color: #999;">
-      <p>이미지 준비 중</p>
+    <div style="width: 280px; margin-right: 4rem; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+      <img src="/uploads/dynamic_lab.png" alt="동적재료 실험실" class="space-img" onerror="this.src='https://via.placeholder.com/280x180?text=No+Image'">
     </div>
     <div style="flex-grow: 1;">
       <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">동적재료 실험실</h3>
@@ -85,10 +90,9 @@ authors: []
     </div>
   </div>
 
-  <!-- 5. 복합재난대응 구조시스템실험실 -->
   <div style="display: flex; align-items: flex-start; margin-bottom: 3rem; width: 100%;">
-    <div style="width: 280px; height: 180px; background-color: #f8f9fa; border: 1px solid #e5e5e5; display: flex; align-items: center; justify-content: center; margin-right: 4rem; flex-shrink: 0; color: #999;">
-      <p>이미지 준비 중</p>
+    <div style="width: 280px; margin-right: 4rem; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
+      <img src="/uploads/complex_lab.png" alt="복합재난대응 구조시스템실험실" class="space-img" onerror="this.src='https://via.placeholder.com/280x180?text=No+Image'">
     </div>
     <div style="flex-grow: 1;">
       <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">복합재난대응 구조시스템실험실</h3>
