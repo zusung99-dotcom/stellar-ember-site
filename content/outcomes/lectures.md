@@ -37,6 +37,6 @@ AI 모델을 '직접 만드는' 시대에서, 기업의 데이터를 '구조화'
 - 인공지능의 개념을 엔지니어의 언어로 명확히 정의합니다.
 - 실제 건축·구조 실무에서 거대언어모델(LLM)과 컴퓨터비전(CV) 기술을 어떻게 강력한 도구로 활용할 수 있는지 구체적인 시나리오와 로드맵을 살펴봅니다.
 
-![AI 건설 실무 특강 1](/static/uploads/media/lecture_03.png)
+![AI 건설 실무 특강 1](/static/uploads/media/lectures_03.png)
 
-![AI 건설 실무 특강 2](/static/uploads/media/lecture_04.png)
+![AI 건설 실무 특강 2](/static/uploads/media/lectures_04.png)
