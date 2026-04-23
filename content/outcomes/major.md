@@ -1,6 +1,10 @@
 ---
 title: "지진방재 마이크로전공 개설"
 summary: "지진방재 분야 전문 인력 양성을 위한 교육과정 운영"
+show_breadcrumb: false
+share: false
+profile: false
+authors: []
 ---
 
 지진방재 마이크로전공의 개설 배경과 운영 내용에 대한 상세 설명입니다.
