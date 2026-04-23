@@ -33,9 +33,9 @@ sections:
 
         <br>
         <div style="text-align: center; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
-          <img src="/stellar-ember-site/uploads/협약서_1.png" alt="사진1" style="max-width: 45%; height: auto; border-radius: 8px;">
-          <img src="/stellar-ember-site/uploads/협약서_2.png" alt="사진2" style="max-width: 45%; height: auto; border-radius: 8px;">
-          <img src="/stellar-ember-site/uploads/협약사진1.png" alt="사진3" style="max-width: 70%; height: auto; border-radius: 8px;">
+          <img src="/uploads/협약서_1.png" alt="사진1" style="max-width: 45%; height: auto; border-radius: 8px;">
+          <img src="/uploads/협약서_2.png" alt="사진2" style="max-width: 45%; height: auto; border-radius: 8px;">
+          <img src="/uploads/협약사진1.png" alt="사진3" style="max-width: 70%; height: auto; border-radius: 8px;">
         </div>
     design:
       spacing:
