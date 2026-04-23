@@ -17,12 +17,6 @@ main:
     identifier: outcomes
     weight: 40
 
-  # [추가] 하위 메뉴 맨 위에 '전체보기' 항목 삽입
-  - name: "👉 성과 전체 보기"
-    parent: outcomes
-    url: "/outcomes/"
-    weight: 1  # 숫자를 가장 작게 해서 맨 위로 올립니다.
-
   - name: "지진방재마이크로전공 개설"
     parent: outcomes
     url: "/outcomes/major/"
