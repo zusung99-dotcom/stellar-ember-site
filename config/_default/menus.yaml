@@ -4,7 +4,7 @@ main:
     weight: 10
 
   - name: "구성원 | MEMBERS"
-    url: "/members/"
+    url: "/members/member/"
     weight: 20
 
   - name: "연구 | RESEARCH"
