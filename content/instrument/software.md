@@ -7,6 +7,10 @@ profile: false
 authors: []
 ---
 
+<style>
+  h1, .article-metadata { display: none !important; }
+</style>
+
 지진방재 연구에 활용되는 해석 소프트웨어의 종류와 용도에 대한 설명입니다.
 
 <div style="position: relative; width: 90vw; max-width: 1200px; left: 50%; transform: translateX(-50%); margin-top: 4rem;">
