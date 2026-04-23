@@ -14,6 +14,11 @@ summary: "사업단 홍보 및 성과 확산을 위한 전시 활동"
 
 ## 전시 사진
 
-![홍보용 배너 전시 1](/static/uploads/media/exhibition_01.png)
-
-![홍보용 배너 전시 2](/static/uploads/media/exhibition_02.png)
+        <br>
+        <div style="text-align: center; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+          <img src="/stellar-ember-site/uploads/media/exhibition_01.png" alt="사진1" style="max-width: 45%; height: auto; border-radius: 8px;">
+          <img src="/stellar-ember-site/uploads/media/exhibition_02.png" alt="사진2" style="max-width: 45%; height: auto; border-radius: 8px;">
+        </div>
+    design:
+      spacing:
+        padding: ["80px", "0", "80px", "0"]
