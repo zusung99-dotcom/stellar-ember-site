@@ -1,6 +1,10 @@
 ---
 title: "외부 전문가 특강"
 summary: "최신 연구동향 및 실무 중심의 전문가 초청 특강"
+show_breadcrumb: false
+share: false
+profile: false
+authors: []
 ---
 외부 전문가 초청 특강의 주요 내용과 진행 사례를 소개합니다.
 
