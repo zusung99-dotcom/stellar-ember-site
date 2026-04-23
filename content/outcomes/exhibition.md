@@ -19,5 +19,7 @@ authors: []
 
 ## 전시 사진
 
-[홍보용 배너 전시 1]{{< figure src=/uploads/exhibition_01.png >}}
-[홍보용 배너 전시 2]{{< figure src=/uploads/exhibition_02.png >}}
+[홍보용 배너]{{< figure src=/uploads/exhibition_01.png >}}
+[홍보용 배너 전시 ]{{< figure src=/uploads/판1.png >}}
+                  {{< figure src=/uploads/판2.png >}}
+                  {{< figure src=/uploads/판3.png >}}
