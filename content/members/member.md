@@ -2,7 +2,6 @@
 title: 구성원
 date: 2026-04-22
 type: landing
-
 sections:
   - block: hero
     content:
@@ -20,6 +19,74 @@ sections:
       text_align: center
       spacing:
         padding: ["2rem", "0", "2rem", "0"]
+
+  - block: markdown
+    id: faculty
+    content:
+      title: 참여 교수진
+      text: |
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:1.5rem 0;">
+
+          <div style="border:1px solid #e5e7eb;border-left:4px solid #0E4A84;border-radius:8px;padding:1.2rem;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,0.05);">
+            <div style="font-size:1.15rem;font-weight:700;color:#0E4A84;margin-bottom:0.3rem;">유은종 <span style="font-size:0.9rem;font-weight:500;color:#666;">교수</span></div>
+            <div style="font-size:0.9rem;color:#555;margin-bottom:0.2rem;">건축공학과</div>
+            <div style="font-size:0.95rem;color:#222;font-weight:500;">내진공학</div>
+          </div>
+
+          <div style="border:1px solid #e5e7eb;border-left:4px solid #0E4A84;border-radius:8px;padding:1.2rem;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,0.05);">
+            <div style="font-size:1.15rem;font-weight:700;color:#0E4A84;margin-bottom:0.3rem;">한상환 <span style="font-size:0.9rem;font-weight:500;color:#666;">교수</span></div>
+            <div style="font-size:0.9rem;color:#555;margin-bottom:0.2rem;">건축공학과</div>
+            <div style="font-size:0.95rem;color:#222;font-weight:500;">내진공학</div>
+          </div>
+
+          <div style="border:1px solid #e5e7eb;border-left:4px solid #0E4A84;border-radius:8px;padding:1.2rem;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,0.05);">
+            <div style="font-size:1.15rem;font-weight:700;color:#0E4A84;margin-bottom:0.3rem;">최창식 <span style="font-size:0.9rem;font-weight:500;color:#666;">교수</span></div>
+            <div style="font-size:0.9rem;color:#555;margin-bottom:0.2rem;">건축공학과</div>
+            <div style="font-size:0.95rem;color:#222;font-weight:500;">철근콘크리트구조</div>
+          </div>
+
+          <div style="border:1px solid #e5e7eb;border-left:4px solid #0E4A84;border-radius:8px;padding:1.2rem;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,0.05);">
+            <div style="font-size:1.15rem;font-weight:700;color:#0E4A84;margin-bottom:0.3rem;">배성철 <span style="font-size:0.9rem;font-weight:500;color:#666;">교수</span></div>
+            <div style="font-size:0.9rem;color:#555;margin-bottom:0.2rem;">건축공학과</div>
+            <div style="font-size:0.95rem;color:#222;font-weight:500;">건축재료</div>
+          </div>
+
+          <div style="border:1px solid #e5e7eb;border-left:4px solid #0E4A84;border-radius:8px;padding:1.2rem;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,0.05);">
+            <div style="font-size:1.15rem;font-weight:700;color:#0E4A84;margin-bottom:0.3rem;">박두희 <span style="font-size:0.9rem;font-weight:500;color:#666;">교수</span></div>
+            <div style="font-size:0.9rem;color:#555;margin-bottom:0.2rem;">건설환경공학과</div>
+            <div style="font-size:0.95rem;color:#222;font-weight:500;">지반공학</div>
+          </div>
+
+          <div style="border:1px solid #e5e7eb;border-left:4px solid #0E4A84;border-radius:8px;padding:1.2rem;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,0.05);">
+            <div style="font-size:1.15rem;font-weight:700;color:#0E4A84;margin-bottom:0.3rem;">전종수 <span style="font-size:0.9rem;font-weight:500;color:#666;">교수</span></div>
+            <div style="font-size:0.9rem;color:#555;margin-bottom:0.2rem;">건설환경공학과</div>
+            <div style="font-size:0.95rem;color:#222;font-weight:500;">내진공학</div>
+          </div>
+
+          <div style="border:1px solid #e5e7eb;border-left:4px solid #0E4A84;border-radius:8px;padding:1.2rem;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,0.05);">
+            <div style="font-size:1.15rem;font-weight:700;color:#0E4A84;margin-bottom:0.3rem;">맹민정 <span style="font-size:0.9rem;font-weight:500;color:#666;">교수</span></div>
+            <div style="font-size:0.9rem;color:#555;margin-bottom:0.2rem;">건축학과</div>
+            <div style="font-size:0.95rem;color:#222;font-weight:500;">리질리언스 디자인</div>
+          </div>
+
+          <div style="border:1px solid #e5e7eb;border-left:4px solid #0E4A84;border-radius:8px;padding:1.2rem;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,0.05);">
+            <div style="font-size:1.15rem;font-weight:700;color:#0E4A84;margin-bottom:0.3rem;">김재경 <span style="font-size:0.9rem;font-weight:500;color:#666;">부교수</span></div>
+            <div style="font-size:0.9rem;color:#555;margin-bottom:0.2rem;">건축학과</div>
+            <div style="font-size:0.95rem;color:#222;font-weight:500;">건축학 / 건축설계</div>
+          </div>
+
+          <div style="border:1px solid #e5e7eb;border-left:4px solid #0E4A84;border-radius:8px;padding:1.2rem;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,0.05);">
+            <div style="font-size:1.15rem;font-weight:700;color:#0E4A84;margin-bottom:0.3rem;">손주휘 <span style="font-size:0.9rem;font-weight:500;color:#666;">조교수</span></div>
+            <div style="font-size:0.9rem;color:#555;margin-bottom:0.2rem;">건축학과</div>
+            <div style="font-size:0.95rem;color:#222;font-weight:500;">건축학 / 건축설계</div>
+          </div>
+
+        </div>
+    design:
+      columns: '1'
+      text_align: center
+      spacing:
+        padding: ["1.5rem", "0", "1.5rem", "0"]
 
   - block: markdown
     id: yu-eunjong
