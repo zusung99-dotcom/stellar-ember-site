@@ -14,6 +14,11 @@ date: 2026-04-23
   <div style="font-size:1rem;opacity:0.9;">건축공학과 대학원 마이크로전공 운영 안내</div>
 </div>
 
+<!-- ============ NOTICE ============ -->
+<div style="background:#fff8e1;border-left:4px solid #F5A623;padding:1rem 1.3rem;border-radius:6px;margin:-1rem 0 2.5rem 0;font-size:0.95rem;color:#5a4a1f;">
+  <strong style="color:#8B6914;">📌 이수 인증 안내</strong> &nbsp;|&nbsp; 지진방재 마이크로전공 과목을 모두 이수한 학생들은 <strong>성적증명서 발급 시 하단에 이수 인증 내용이 표기</strong>됩니다.
+</div>
+
 <!-- ============ KEY INFO CARDS ============ -->
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:2rem 0 3rem 0;">
   <div style="background:#fff;border-left:4px solid #0E4A84;padding:1.2rem;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
