@@ -54,7 +54,3 @@ main:
     url: "/instrument/hardware/"
     weight: 2
   # --- 장비 소개 | INSTRUMENT 그룹 끝 ---
-
-  - name: "게시판 | BOARD"
-    url: "/post/"
-    weight: 60
