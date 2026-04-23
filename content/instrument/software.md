@@ -52,7 +52,20 @@ authors: []
       </ul>
     </div>
   </div>
+  
+<div style="display: flex; align-items: flex-start; margin-bottom: 2rem; width: 100%;">
+    <img src="/uploads/Safe.png" style="width: 280px; margin-right: 4rem; flex-shrink: 0; border: 1px solid #e5e5e5; padding: 5px;" alt="SAFE">
+    <div style="flex-grow: 1;">
+      <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">SAFE</h3>
+      <ul style="list-style-type: none; padding-left: 0; margin: 0; line-height: 1.9; font-size: 1.1rem;">
+        <li><strong>▪ 사용용도:</strong> 콘크리트 슬래브·매트·기초 시스템 해석 및 설계</li>
+        <li><strong>▪ 제작회사:</strong> Computers & Structures</li>
+        <li style="margin-top: 1rem; color: #555;">SAFE (Slab Analysis by Finite Element) is a specialized software by CSI dedicated to the analysis and design of concrete floor and foundation systems, including flat slabs, waffle/ribbed slabs, mat foundations, and combined footings. It integrates modeling, finite element analysis, design, detailing, and reporting within a single environment. SAFE supports post-tensioning, punching shear checks, and uplift analysis with soil supports, and can import loads and geometry directly from ETABS or SAP2000 — making it the standard tool for detailed slab and foundation design in multi-story building projects.</li>
+      </ul>
+    </div>
+  </div>
 
+</div>
   <div style="display: flex; align-items: flex-start; margin-bottom: 2rem; width: 100%;">
     <img src="/uploads/Midas.png" style="width: 280px; margin-right: 4rem; flex-shrink: 0; border: 1px solid #e5e5e5; padding: 5px;" alt="MIDAS">
     <div style="flex-grow: 1;">
