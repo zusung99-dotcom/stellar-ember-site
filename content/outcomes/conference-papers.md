@@ -1,6 +1,10 @@
 ---
 title: "학술 발표"
 summary: "국내외 학술대회 발표 및 연구 성과 공유"
+show_breadcrumb: false
+share: false
+profile: false
+authors: []
 ---
 학술대회 발표 및 연구성과를 정리한 내용입니다.
 
