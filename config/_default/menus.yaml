@@ -11,9 +11,10 @@ main:
     url: "/research/"
     weight: 30
 
-  # 1. identifier 추가
+  # --- 활동 | OUTCOMES 그룹 시작 ---
   - name: "활동 | OUTCOMES"
     url: "/outcomes/"
+    identifier: outcomes
     weight: 40
 
   - name: "지진방재마이크로전공 개설"
@@ -35,10 +36,12 @@ main:
     parent: outcomes
     url: "/outcomes/exhibition/"
     weight: 4
-    
-  # 2. identifier 추가
+  # --- 활동 | OUTCOMES 그룹 끝 ---
+
+  # --- 장비 소개 | INSTRUMENT 그룹 시작 ---
   - name: "장비 소개 | INSTRUMENT"
     url: "/instrument/"
+    identifier: instrument
     weight: 50
 
   - name: "소프트웨어"
@@ -50,7 +53,8 @@ main:
     parent: instrument
     url: "/instrument/hardware/"
     weight: 2
+  # --- 장비 소개 | INSTRUMENT 그룹 끝 ---
 
   - name: "게시판 | BOARD"
-    url: "/board/"
+    url: "/post/"
     weight: 60
