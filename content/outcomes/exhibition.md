@@ -1,6 +1,10 @@
 ---
 title: "홍보용 배너 전시"
 summary: "사업단 홍보 및 성과 확산을 위한 전시 활동"
+show_breadcrumb: false
+share: false
+profile: false
+authors: []
 ---
 홍보용 배너 전시 및 성과 확산 활동을 소개합니다.
 
