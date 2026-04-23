@@ -37,9 +37,9 @@ authors: []
 학술대회 발표 및 연구성과를 정리한 내용입니다.
 
 <div class="photo-grid">
-  <img src="/uploads/학술1.png" alt="학술발표 사진 1" class="photo-item" onerror="this.src='https://via.placeholder.com/400x300?text=Image+1'">
-  <img src="/uploads/학술2.png" alt="학술발표 사진 2" class="photo-item" onerror="this.src='https://via.placeholder.com/400x300?text=Image+2'">
-  <img src="/uploads/학술3.png" alt="학술발표 사진 3" class="photo-item" onerror="this.src='https://via.placeholder.com/400x300?text=Image+3'">
+  <img src="/uploads/학1.png" alt="학술발표 사진 1" class="photo-item" onerror="this.src='https://via.placeholder.com/400x300?text=Image+1'">
+  <img src="/uploads/학2.png" alt="학술발표 사진 2" class="photo-item" onerror="this.src='https://via.placeholder.com/400x300?text=Image+2'">
+  <img src="/uploads/학3.png" alt="학술발표 사진 3" class="photo-item" onerror="this.src='https://via.placeholder.com/400x300?text=Image+3'">
 </div>
 
 ---
