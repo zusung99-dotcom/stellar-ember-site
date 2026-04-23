@@ -22,12 +22,9 @@ authors: []
     <div style="flex-grow: 1;">
       <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">Perform 3D</h3>
       <ul style="list-style-type: none; padding-left: 0; margin: 0; line-height: 1.9; font-size: 1.1rem;">
-        <li><strong>▪ 분 류:</strong> 프로그램</li>
-        <li><strong>▪ 기자재명:</strong> Perform 3D</li>
         <li><strong>▪ 사용용도:</strong> 구조물 비선형 해석 및 내진 성능 평가</li>
-        <li><strong>▪ 제작회사:</strong> CSI</li>
-        <li><strong>▪ 보유수량:</strong> 1EA</li>
-        <li style="margin-top: 1rem; color: #555;">PERFORM-3D는 변위 기반 설계 및 구조물의 비선형 내진 성능 평가를 위한 강력한 3차원 해석 프로그램입니다. 넓어진 공간만큼 상세 설명을 가로로 길게, 제약 없이 자유롭게 작성하실 수 있습니다.</li>
+        <li><strong>▪ 제작회사:</strong> Computers & Structures</li>
+        <li style="margin-top: 1rem; color: #555;">Used primarily in structural and earthquake engineering, PERFORM-3D is an advanced software dedicated to nonlinear analysis and Performance-Based Design (PBD). It is not a general-purpose design tool; instead, it focuses on simulating how complex structures behave under severe earthquake loading. Engineers use it to evaluate whether a building will meet specific safety criteria, such as collapse prevention, by accurately modeling the post-yield, inelastic behaviors of structural components.</li>
       </ul>
     </div>
   </div>
