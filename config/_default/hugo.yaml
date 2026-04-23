@@ -7,9 +7,6 @@
 title: " "
 baseURL: 'https://zusung99-dotcom.github.io/stellar-ember-site/'
 
-relativeURLs: true
-canonifyURLs: true
-
 ############################
 ## LANGUAGE
 ############################
