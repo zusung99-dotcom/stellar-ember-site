@@ -56,7 +56,7 @@ authors: []
   <div style="display: flex; align-items: flex-start; margin-bottom: 2rem; width: 100%;">
     <img src="/uploads/Midas.png" style="width: 280px; margin-right: 4rem; flex-shrink: 0; border: 1px solid #e5e5e5; padding: 5px;" alt="MIDAS">
     <div style="flex-grow: 1;">
-      <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">MIDAS</h3>
+      <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">MIDAS GEN</h3>
       <ul style="list-style-type: none; padding-left: 0; margin: 0; line-height: 1.9; font-size: 1.1rem;">
         <li><strong>▪ 사용용도:</strong> 건축/토목 통합 구조 해석 및 최적 설계</li>
         <li><strong>▪ 제작회사:</strong> 마이다스아이티 (MIDAS IT)</li>
