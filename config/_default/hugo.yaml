@@ -56,12 +56,9 @@ taxonomies:
   tag: tags
   publication_type: publication_types
 markup:
-  _merge: deep
-  highlight:
-    lineNos: false
-  goldmark:        
-    renderer:   
-      unsafe: true
+  goldmark:          # <- markup보다 스페이스바 2칸 들여쓰기
+    renderer:        # <- goldmark보다 스페이스바 2칸 들여쓰기
+      unsafe: true   # <- renderer보다 스페이스바 2칸 들여쓰기 (최종 6칸!)
 security:
   _merge: deep
 sitemap:
