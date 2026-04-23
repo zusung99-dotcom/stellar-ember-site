@@ -6,7 +6,43 @@ share: false
 profile: false
 authors: []
 ---
+
+<style>
+  /* 상단 자동 생성 제목 및 메타데이터 숨김 */
+  h1, .article-metadata { display: none !important; }
+
+  /* 이미지 그리드 스타일 */
+  .photo-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 2rem 0 4rem 0;
+  }
+
+  .photo-item {
+    flex: 1; /* 3개가 동일한 비율로 가로 꽉 차게 */
+    aspect-ratio: 4 / 3; /* 사진 비율 통일 (4:3) */
+    object-fit: cover; /* 비율 유지하며 영역 채움 */
+    border-radius: 8px; /* 모서리 살짝 둥글게 */
+    background-color: transparent; /* 배경색 없음 */
+  }
+
+  @media (max-width: 768px) {
+    .photo-grid {
+      flex-direction: column; /* 모바일에서는 세로로 나열 */
+    }
+  }
+</style>
+
 학술대회 발표 및 연구성과를 정리한 내용입니다.
+
+<div class="photo-grid">
+  <img src="/uploads/학술1.png" alt="학술발표 사진 1" class="photo-item" onerror="this.src='https://via.placeholder.com/400x300?text=Image+1'">
+  <img src="/uploads/학술2.png" alt="학술발표 사진 2" class="photo-item" onerror="this.src='https://via.placeholder.com/400x300?text=Image+2'">
+  <img src="/uploads/학술3.png" alt="학술발표 사진 3" class="photo-item" onerror="this.src='https://via.placeholder.com/400x300?text=Image+3'">
+</div>
+
+---
 
 ## 국제 학술대회
 
@@ -15,6 +51,8 @@ authors: []
 1. 한상환, 조은선, 홍민국. *Cyclic Performance of Steel Beam-Column Connections with Weak Panel Zones: Experimental and Numerical Study.* **ISSS-PSSC**. (2025.10)
 
 2. 이건찬, 이창석, 전종수. *Shape memory alloy jacket repair of reinforced concrete column for aftershock demand reduction.* **ISSS-PSSC**. (2025.11)
+
+---
 
 ## 국내 학술대회
 
