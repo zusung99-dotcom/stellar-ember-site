@@ -96,36 +96,36 @@ hugoblox:
       enable: false
       text: ""
       url: ""
-
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER
-  # Site footer
   # ────────────────────────────────────────────────────────────────────────────
   footer:
-  style: minimal
-  language_switcher: true
-  text: |
-    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; width: 100%;">
-      <div style="display: flex; gap: 20px; align-items: center; margin-bottom: 10px;">
-        <img src="/uploads/hanyang-logo.png" alt="한양대학교" style="height: 50px;">
-        <img src="/uploads/mois-logo.png" alt="행정안전부" style="height: 50px;">
+    style: minimal
+    language_switcher: true
+    text: |
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; width: 100%;">
+        <div style="display: flex; gap: 20px; align-items: center; margin-bottom: 10px;">
+          <img src="/stellar-ember-site/uploads/hanyang-logo.png" alt="한양대학교" style="height: 50px;">
+          <img src="/stellar-ember-site/uploads/mois-logo.png" alt="행정안전부" style="height: 50px;">
+        </div>
+        <div style="text-align: right; line-height: 1.6; font-size: 0.9rem;">
+          <strong>Structural Analysis & Optimization Lab</strong><br>
+          서울시 성동구 왕십리로 222 한양대학교 공학관 610-1호<br>
+          Tel. 02-2220-0312
+        </div>
       </div>
-      <div style="text-align: right; line-height: 1.6; font-size: 0.9rem;">
-        <strong>Structural Analysis & Optimization Lab</strong><br>
-        서울시 성동구 왕십리로 222 한양대학교 공학관 610-1호<br>
-        Tel. 02-2220-0312
-      </div>
-    </div>
+
+  # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT
-  # Legal notices and licensing
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
-  notice: "© {year} {name}. This work is licensed under {license}"
-license:
-  type: cc
-  allow_derivatives: false
-  share_alike: true
-  allow_commercial: false
+    notice: "© {year} {name}. This work is licensed under {license}"
+  license:
+    type: cc
+    allow_derivatives: false
+    share_alike: true
+    allow_commercial: false
+
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEO
