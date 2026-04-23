@@ -1,5 +1,5 @@
 ---
-title: 참여 학생
+title: 구성원
 date: 2026-04-22
 type: landing
 
@@ -7,7 +7,7 @@ sections:
   - block: hero
     content:
       title: |
-        참여 학생<br><span class="text-primary">MEMBERS</span>
+        구성원<br><span class="text-primary">MEMBERS</span>
       text: |
         **한양대학교 지진방재 전문인력 양성 사업단 참여 대학원생**
     design:
