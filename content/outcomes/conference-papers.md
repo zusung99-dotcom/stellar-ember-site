@@ -14,68 +14,148 @@ authors: []
 
   /* 2. 전체 컨텐츠 중앙 정렬 레이아웃 */
   .center-container {
-    max-width: 1000px;     /* 전체적인 가로 폭 제한 */
-    margin: 0 auto;        /* 페이지 중앙 배치 */
-    text-align: center;    /* 텍스트 중앙 정렬 */
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
     padding: 2rem 0;
   }
 
-  /* 3. 자동 슬라이더 컨테이너 설정 */
+  /* 3. 슬라이더 전체를 감싸는 래퍼 (화살표 위치 기준점) */
+  .slider-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: transparent !important; /* 배경 완전히 투명하게 */
+  }
+
+  /* 4. 자동 슬라이더 컨테이너 설정 */
   .slider-container {
     width: 100%;
-    max-width: 800px;      /* 슬라이더의 최대 너비 지정 */
-    margin: 2rem auto;     /* 위아래 여백 및 가운데 정렬 */
-    overflow: hidden;      /* 프레임 밖으로 나가는 이미지 숨김 (핵심) */
-    border-radius: 12px;   /* 모서리 곡선 처리 */
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* 부드러운 그림자 효과 */
+    overflow: hidden; /* 프레임 밖으로 나가는 이미지 숨김 */
+    border-radius: 12px;
+    background-color: transparent !important; /* 배경 투명 */
+    /* 기존에 있던 그림자(box-shadow)와 테두리 제거하여 흰 배경 원인 차단 */
   }
 
-  /* 4. 슬라이드 트랙 (이미지들이 가로로 길게 이어지는 공간) */
+  /* 5. 슬라이드 트랙 */
   .slider-track {
     display: flex;
-    transition: transform 0.8s ease-in-out; /* 부드럽게 미끄러지는 애니메이션 속도 */
+    transition: transform 0.6s ease-in-out;
+    background-color: transparent !important;
   }
 
-  /* 5. 개별 슬라이드 이미지 세팅 */
+  /* 6. 개별 슬라이드 이미지 세팅 */
   .slider-track img {
-    width: 100%;           /* 컨테이너 너비에 꽉 차게 설정 */
-    flex-shrink: 0;        /* 이미지 영역이 찌그러지지 않도록 방지 */
-    object-fit: cover;     /* 비율을 유지하며 영역 채우기 */
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: contain; /* cover 대신 contain을 써서 이미지 짤림을 방지 (필요시 변경 가능) */
+    background-color: transparent !important;
+    border: none !important; /* 테두리 제거 */
   }
+
+  /* 7. 좌우 화살표 버튼 스타일 */
+  .nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3); /* 반투명 검은색 배경 */
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+  }
+
+  .nav-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* 마우스 올렸을 때 더 진해짐 */
+  }
+
+  .left-arrow { left: 10px; }
+  .right-arrow { right: 10px; }
 </style>
 
 <div class="center-container">
   <h2>학술대회 발표 및 연구성과 정리 내용</h2>
 
-  <div class="slider-container">
-    <div class="slider-track" id="imageSlider">
-      <img src="/uploads/학1.png" alt="학술발표 사진 1" onerror="this.src='https://via.placeholder.com/800x600?text=이미지1을+찾을수없음'">
-      <img src="/uploads/학2.png" alt="학술발표 사진 2" onerror="this.src='https://via.placeholder.com/800x600?text=이미지2을+찾을수없음'">
-      <img src="/uploads/학3.png" alt="학술발표 사진 2" onerror="this.src='https://via.placeholder.com/800x600?text=이미지2을+찾을수없음'">
-      </div>
+  <div class="slider-wrapper">
+    <div class="slider-container">
+      <div class="slider-track" id="imageSlider">
+        <img src="/uploads/학1.png" alt="학술발표 사진 1" onerror="this.src='https://via.placeholder.com/800x600?text=이미지1을+찾을수없음'">
+        <img src="/uploads/학2.png" alt="학술발표 사진 2" onerror="this.src='https://via.placeholder.com/800x600?text=이미지2을+찾을수없음'">
+        <img src="/uploads/학3.png" alt="학술발표 사진 3" onerror="this.src='https://via.placeholder.com/800x600?text=이미지2을+찾을수없음'">
+        </div>
+    </div>
+    
+    <button class="nav-arrow left-arrow" id="prevBtn">&#10094;</button>
+    <button class="nav-arrow right-arrow" id="nextBtn">&#10095;</button>
   </div>
 </div>
 
 <script>
-  // 마크다운 내부에서 작동하는 자동 슬라이드 스크립트
   document.addEventListener('DOMContentLoaded', function() {
     const track = document.getElementById('imageSlider');
     const slides = track.children;
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    
     let currentIndex = 0;
     const totalSlides = slides.length;
+    let slideInterval;
 
-    // 사진이 2장 이상일 때만 슬라이드 애니메이션 작동
-    if (totalSlides > 1) {
-      setInterval(() => {
-        currentIndex++;
-        // 마지막 사진에 도달하면 다시 첫 번째 사진으로 되돌아감
-        if (currentIndex >= totalSlides) {
-          currentIndex = 0; 
-        }
-        // 왼쪽으로 100%씩 이동하여 다음 사진을 보여줌
-        track.style.transform = `translateX(-${currentIndex * 100}%)`;
-      }, 3500); // 현재 3.5초(3500ms)마다 넘어갑니다. 속도를 조절하고 싶다면 이 숫자를 변경하세요.
+    // 이미지가 1장뿐이면 화살표를 숨깁니다.
+    if (totalSlides <= 1) {
+      prevBtn.style.display = 'none';
+      nextBtn.style.display = 'none';
+      return;
     }
+
+    // 슬라이드 이동 함수
+    function updateSlide() {
+      track.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+
+    // 다음 슬라이드로
+    function nextSlide() {
+      currentIndex++;
+      if (currentIndex >= totalSlides) currentIndex = 0;
+      updateSlide();
+    }
+
+    // 이전 슬라이드로
+    function prevSlide() {
+      currentIndex--;
+      if (currentIndex < 0) currentIndex = totalSlides - 1;
+      updateSlide();
+    }
+
+    // 자동 슬라이드 시작
+    function startAutoSlide() {
+      slideInterval = setInterval(nextSlide, 3500); // 3.5초마다 다음으로
+    }
+
+    // 사용자가 버튼을 누르면 자동 넘김 타이머를 리셋 (겹침 방지)
+    function resetAutoSlide() {
+      clearInterval(slideInterval);
+      startAutoSlide();
+    }
+
+    // 버튼 클릭 이벤트 연결
+    nextBtn.addEventListener('click', () => {
+      nextSlide();
+      resetAutoSlide();
+    });
+
+    prevBtn.addEventListener('click', () => {
+      prevSlide();
+      resetAutoSlide();
+    });
+
+    // 최초 자동 슬라이드 실행
+    startAutoSlide();
   });
 </script>
 
@@ -86,4 +166,4 @@ authors: []
 
 1. 한상환, 조은선, 홍민국. *Cyclic Performance of Steel Beam-Column Connections with Weak Panel Zones: Experimental and Numerical Study.* **ISSS-PSSC**. (2025.10)
 
-2. 이건찬, 이창석, 전종수. *Shape memory alloy jacket repair of reinforced concrete column for aftershock demand reduction.* **ISSS-PSSC**. (2025.11)
+2. 이건찬, 이창석, 전종수. *Shape memory alloy jacket repair of reinforced concrete column for aftershock demand reduction.* **ISSS-PSSC**. (20
