@@ -94,7 +94,7 @@ sections:
   - block: features
     id: strengths
     content:
-      title: 4. 사업단의 특·장점
+      title: 사업단의 특·장점
       items:
         - name: 검증된 내진 분야 교수진
           icon: user-group
