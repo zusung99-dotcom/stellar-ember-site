@@ -5,6 +5,7 @@ show_breadcrumb: false
 share: false
 profile: false
 toc: false
+reading_time: false   # 👈 이 줄을 추가하세요! (일반 게시물용 읽기 시간 숨김)
 authors: []
 ---
 
