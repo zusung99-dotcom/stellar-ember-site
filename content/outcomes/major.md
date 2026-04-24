@@ -3,6 +3,10 @@ title: 마이크로전공
 subtitle: Micro Major in Earthquake Hazard Mitigation
 summary: 한양대학교 건축공학과 대학원 지진방재 마이크로전공
 date: 2026-04-23
+show_breadcrumb: false
+share: false
+profile: false
+authors: []
 ---
 
 <!-- ============ HERO ============ -->
