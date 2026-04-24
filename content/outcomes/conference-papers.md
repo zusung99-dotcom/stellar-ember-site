@@ -20,52 +20,64 @@ authors: []
     padding: 2rem 0;
   }
 
-  /* 3. 이미지 그리드 설정 */
-  .photo-grid {
-    display: flex;
-    justify-content: center; /* 이미지들을 가로 중앙으로 */
-    gap: 20px;               /* 이미지 사이 간격 */
-    margin: 2rem 0;
+  /* 3. 자동 슬라이더 컨테이너 설정 */
+  .slider-container {
     width: 100%;
+    max-width: 800px;      /* 슬라이더의 최대 너비 지정 */
+    margin: 2rem auto;     /* 위아래 여백 및 가운데 정렬 */
+    overflow: hidden;      /* 프레임 밖으로 나가는 이미지 숨김 (핵심) */
+    border-radius: 12px;   /* 모서리 곡선 처리 */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* 부드러운 그림자 효과 */
   }
 
-  /* 4. 이미지 개별 스타일 */
-  .photo-item {
-    flex: 0 1 45%;           /* 너무 커지지 않게 45% 정도만 차지 */
-    height: auto;            /* 원본 비율 유지 */
-    border-radius: 12px;     /* 모서리 곡선 */
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* 깔끔한 그림자 */
-    border: 1px solid #f0f0f0;
-    transition: transform 0.3s ease; /* 마우스 올렸을 때 효과 */
+  /* 4. 슬라이드 트랙 (이미지들이 가로로 길게 이어지는 공간) */
+  .slider-track {
+    display: flex;
+    transition: transform 0.8s ease-in-out; /* 부드럽게 미끄러지는 애니메이션 속도 */
   }
 
-  .photo-item:hover {
-    transform: translateY(-5px);
-  }
-
-  /* 5. 모바일 대응 (화면 작아지면 한 줄에 하나씩) */
-  @media (max-width: 768px) {
-    .photo-grid {
-      flex-direction: column;
-      align-items: center;
-    }
-    .photo-item {
-      flex: 0 1 90%;
-      max-width: 500px;
-    }
+  /* 5. 개별 슬라이드 이미지 세팅 */
+  .slider-track img {
+    width: 100%;           /* 컨테이너 너비에 꽉 차게 설정 */
+    flex-shrink: 0;        /* 이미지 영역이 찌그러지지 않도록 방지 */
+    object-fit: cover;     /* 비율을 유지하며 영역 채우기 */
   }
 </style>
 
 <div class="center-container">
-<div class="top-flex-row">
-  <h2 class="inline-title">학술대회 발표 및 연구성과 정리 내용</h2>
+  <h2>학술대회 발표 및 연구성과 정리 내용</h2>
 
-  <div class="photo-grid">
-    <img src="/uploads/학1.png" alt="학술발표 사진 1" class="photo-item" onerror="this.src='https://via.placeholder.com/800x600?text=이미지1을+찾을수없음'">
-    <img src="/uploads/학2.png" alt="학술발표 사진 2" class="photo-item" onerror="this.src='https://via.placeholder.com/800x600?text=이미지2을+찾을수없음'">
+  <div class="slider-container">
+    <div class="slider-track" id="imageSlider">
+      <img src="/uploads/학1.png" alt="학술발표 사진 1" onerror="this.src='https://via.placeholder.com/800x600?text=이미지1을+찾을수없음'">
+      <img src="/uploads/학2.png" alt="학술발표 사진 2" onerror="this.src='https://via.placeholder.com/800x600?text=이미지2을+찾을수없음'">
+      <img src="/uploads/학3.png" alt="학술발표 사진 2" onerror="this.src='https://via.placeholder.com/800x600?text=이미지2을+찾을수없음'">
+      </div>
   </div>
-
 </div>
+
+<script>
+  // 마크다운 내부에서 작동하는 자동 슬라이드 스크립트
+  document.addEventListener('DOMContentLoaded', function() {
+    const track = document.getElementById('imageSlider');
+    const slides = track.children;
+    let currentIndex = 0;
+    const totalSlides = slides.length;
+
+    // 사진이 2장 이상일 때만 슬라이드 애니메이션 작동
+    if (totalSlides > 1) {
+      setInterval(() => {
+        currentIndex++;
+        // 마지막 사진에 도달하면 다시 첫 번째 사진으로 되돌아감
+        if (currentIndex >= totalSlides) {
+          currentIndex = 0; 
+        }
+        // 왼쪽으로 100%씩 이동하여 다음 사진을 보여줌
+        track.style.transform = `translateX(-${currentIndex * 100}%)`;
+      }, 3500); // 현재 3.5초(3500ms)마다 넘어갑니다. 속도를 조절하고 싶다면 이 숫자를 변경하세요.
+    }
+  });
+</script>
 
 ---
 ## 국제 학술대회
