@@ -11,6 +11,12 @@ main:
     url: "/research/"
     weight: 30
 
+      - name: "학술발표"
+    parent: research
+    url: "/research/conference-papers/"
+    weight: 4
+    
+
   # 활동 | OUTCOMES 부모 메뉴
   - name: "활동 | OUTCOMES"
     url: "/outcomes/"
@@ -26,12 +32,7 @@ main:
     parent: outcomes
     url: "/outcomes/lectures/"
     weight: 3
-
-  - name: "학술발표"
-    parent: outcomes
-    url: "/outcomes/conference-papers/"
-    weight: 4
-
+    
   - name: "홍보용 배너전시"
     parent: outcomes
     url: "/outcomes/exhibition/"
