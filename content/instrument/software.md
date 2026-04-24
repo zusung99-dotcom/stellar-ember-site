@@ -53,8 +53,8 @@ authors: []
     </div>
   </div>
   
-<div style="display: flex; align-items: flex-start; margin-bottom: 2rem; width: 100%;">
-    <img src="/uploads/Safe.png" style="width: 280px; margin-right: 4rem; flex-shrink: 0; border: 1px solid #e5e5e5; padding: 5px;" alt="SAFE">
+  <div style="display: flex; align-items: flex-start; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 2px dotted #cccccc; width: 100%;">
+    <img src="/uploads/safe.png" style="width: 280px; margin-right: 4rem; flex-shrink: 0; border: 1px solid #e5e5e5; padding: 5px;" alt="SAFE">
     <div style="flex-grow: 1;">
       <h3 style="margin-top: 0; margin-bottom: 1.2rem; color: #333; font-size: 1.6rem;">SAFE</h3>
       <ul style="list-style-type: none; padding-left: 0; margin: 0; line-height: 1.9; font-size: 1.1rem;">
@@ -65,7 +65,6 @@ authors: []
     </div>
   </div>
 
-</div>
   <div style="display: flex; align-items: flex-start; margin-bottom: 2rem; width: 100%;">
     <img src="/uploads/Midas.png" style="width: 280px; margin-right: 4rem; flex-shrink: 0; border: 1px solid #e5e5e5; padding: 5px;" alt="MIDAS">
     <div style="flex-grow: 1;">
