@@ -57,8 +57,8 @@ authors: []
 </style>
 
 <div class="center-container">
-
-  ## 학술대회 발표 및 연구성과를 정리한 내용입니다.
+<div class="top-flex-row">
+  <h2 class="inline-title">학술대회 발표 및 연구성과를 정리한 내용입니다.</h2>
 
   <div class="photo-grid">
     <img src="/uploads/학1.png" alt="학술발표 사진 1" class="photo-item" onerror="this.src='https://via.placeholder.com/800x600?text=이미지1을+찾을수없음'">
