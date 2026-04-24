@@ -9,14 +9,14 @@ main:
 
   - name: "연구 | RESEARCH"
     url: "/research/"
+    identifier: research    
     weight: 30
 
-      - name: "학술발표"
+  - name: "학술발표"        
     parent: research
     url: "/research/conference-papers/"
     weight: 4
     
-
   # 활동 | OUTCOMES 부모 메뉴
   - name: "활동 | OUTCOMES"
     url: "/outcomes/"
