@@ -12,6 +12,11 @@ main:
     identifier: research    
     weight: 30
 
+  - name: "논문"
+    parent: research
+    url: "/research/journals/"
+    weight: 1
+  
   - name: "학술발표"        
     parent: research
     url: "/research/conference-papers/"
